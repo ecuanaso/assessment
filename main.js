@@ -37,11 +37,6 @@ $(function(){
     ];
 
 
-    var borderColor = [
-
-    ];
-
-
 	 $.ajax({
 	      url: 'test_feed.json',
 	      dataType: 'json',
@@ -83,7 +78,7 @@ $(function(){
 				            label: 'count of each word',
 				            data: arr,
 				            backgroundColor: bkgColor,
-				            borderColor: borderColor,
+				            //borderColor: borderColor,
 				            borderWidth: 1
 				        }]
 				    },
